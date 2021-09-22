@@ -1,0 +1,257 @@
+body {
+    height: 2000px;
+    cursor: none;
+    background: url("../images/R.jpg") repeat center top;
+    background-size: 2000px 1500px;
+}
+.gaozi {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    /* z-index: 999; */
+}
+.music {
+    position: fixed;
+    left: 5px;
+    bottom: 10px;
+}
+.w {
+    width: 1400px;
+    /* height: 6000px; */
+    margin: 150px auto;
+     /*   */
+     background-size: 1400px 1300px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.top .title {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 300px;
+    height: 200px;
+    /* background-color: blue; */
+    font-size: 39px;
+    color:tomato;
+    text-align: center;
+    line-height: 100px;
+}
+.top .xbg {
+    margin-top: 50px;
+    margin-left: 900px;
+    width: 400px;
+    height: 200px;
+    background: url("../images/OIP.jpg") no-repeat;
+    background-size: cover;
+}
+/* 主体 */
+.container {
+    overflow: hidden;
+    width: 2000px;
+}
+.container .left {
+    float: left;
+    width: 900px;
+    /* height: 6000px; */
+    /* background-color: teal; */
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.container .right {
+    float: left;
+    width: 300px;
+    /* height: 6000px; */
+     background-color: white;
+     opacity: 0.7;
+     margin-left: 75px;
+     margin-top: 20px;
+     border-radius: 10px;
+}  
+.banner {
+    /* float: left; */
+    width: 95%;
+    height: 40px;
+    background-color: white;
+    opacity: 0.7;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+.banner li a {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* background-color: yellowgreen; */
+    font-size: 16px;
+}
+.banner li a:hover {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    /* background-color: skyblue; */
+}
+.ly {
+    float: right;
+    line-height: 40px;
+    padding-right: 8px;
+    color: #000;
+
+}
+.pd {
+    padding-left: 20px;
+}
+.atc {
+    width: 95%;
+    /* height: 6000px; */
+    background-color: white;
+    margin: 30px auto;
+    padding-left: 20px;
+    opacity: 0.7;
+}
+.atc h1 {
+    padding: 22px 236px;
+}
+.atc p {
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
+.dash {
+    position: relative;
+    overflow: hidden;
+    /* clear: both; */
+    width: 350px;
+    height: 52px;
+    border: 1px dashed #ccc;
+}
+.dash .blue,
+.red,
+.yellow,
+.wb,
+.wx {
+    position: absolute;
+    top: 11px;
+    height: 28px;
+    text-shadow: 0 -1px 1px rgb(0 0 0 / 25%);
+    padding: 0px 5px;
+    line-height: 28px;
+    font-weight: bold;
+    /* margin: 15px 10px; */
+    border-radius: 7px;
+}
+.dash  a {
+    text-align: center;
+    
+    color: white;
+}
+.dash .blue {
+    
+    left: 18px;
+    background-color: skyblue;
+
+}
+.dash .red {
+    left: 88px;
+    background-color: tomato;
+}
+.dash .yellow{
+    left: 146px;
+    background-color: yellowgreen;
+}
+.dash .wb {
+    left: 220px;
+}
+.dash .wx {
+    left: 260px;
+}
+.grxx {
+    height: 60px;
+    margin-top: 20px;
+}
+.grxxl {
+    float: left;
+}
+.grxxl img {
+    vertical-align: top;
+}
+.grxxl .grxxlx {
+    display: inline-block;
+}
+.grxxr {
+    float: right;
+
+}
+.grxxr img {
+    margin-right: 20px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+.right .rt {
+    padding: 10px 5px;
+}
+.right .rt p {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0;
+}
+.right .gg {
+    width: 98%;
+    height: 250px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.right .gg img {
+    width: 100%;
+    height: 100%;
+}
+.right .card {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.right .card img {
+    width: 30px;
+    height: 30px;
+
+}
+.right .card .aabd {
+    
+    width: 40px;
+    height: 40px;
+    background: url("../images/bd.jpg") no-repeat;
+    background-size: 40px 40px;
+    /* text-align: center; */
+    line-height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 12px 0 5px 50px;
+    margin-bottom: 5px;
+}
+.right .card .aagg {
+    
+    width: 40px;
+    height: 40px;
+    background: url("../images/guge.jpg") no-repeat;
+    background-size: 40px 40px;
+    /* text-align: center; */
+    line-height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 12px 0 5px 80px;
+    margin-bottom: 5px;
+}
+.right .card ul {
+    margin-top: 10px;
+}
+.right .card li {
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.right .card a {
+    font-size: 12px;
+}
